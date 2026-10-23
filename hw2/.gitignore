@@ -1,0 +1,6 @@
+railway
+tests
+railway_cond
+tests_cond
+*.log
+*.dSYM/
