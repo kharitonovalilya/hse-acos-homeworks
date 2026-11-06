@@ -1,0 +1,12 @@
+sh ./run_tests.sh
+PASSED: railway SIGINT and IPC cleanup
+PASSED: railway SIGTERM and IPC cleanup
+PASSED: railway_named SIGINT and IPC cleanup
+PASSED: railway_named SIGTERM and IPC cleanup
+PASSED: railway_independent SIGINT and IPC cleanup
+PASSED: railway_independent SIGTERM and IPC cleanup
+PASSED: railway_queue SIGINT and IPC cleanup
+PASSED: railway_queue SIGTERM and IPC cleanup
+PASSED: railway_independent log error stops the server and removes IPC
+PASSED: railway_queue log error stops the server and removes IPC
+All tests passed: 44 C checks and 10 shell checks.

@@ -1,0 +1,77 @@
+time=00000 event=CONFIG    train=000 dir=NONE occupancy=0 | Старт: поездов 9; вместимость 3; интервал 1; группа 3; стратегия priority; seed 42; session example_312; pid 369
+time=00000 event=REGISTER  train=004 dir=L-R  occupancy=0 | Процесс поезда подключился
+time=00000 event=ARRIVE    train=004 dir=L-R  occupancy=0 | Пассажирский поезд прибыл на станцию
+time=00000 event=QUEUE     train=004 dir=L-R  occupancy=0 | Поезд ожидает разрешения диспетчера
+time=00000 event=DIRECTION train=000 dir=L-R  occupancy=0 | Диспетчер установил направление движения
+time=00000 event=PERMIT    train=004 dir=L-R  occupancy=0 | Диспетчер разрешил въезд
+time=00000 event=ENTER     train=004 dir=L-R  occupancy=1 | Поезд въехал на участок
+time=00000 event=REGISTER  train=002 dir=L-R  occupancy=1 | Процесс поезда подключился
+time=00000 event=ARRIVE    train=002 dir=L-R  occupancy=1 | Пассажирский поезд прибыл на станцию
+time=00000 event=QUEUE     train=002 dir=L-R  occupancy=1 | Поезд ожидает разрешения диспетчера
+time=00000 event=REGISTER  train=009 dir=R-L  occupancy=1 | Процесс поезда подключился
+time=00000 event=ARRIVE    train=009 dir=R-L  occupancy=1 | Пассажирский поезд прибыл на станцию
+time=00000 event=QUEUE     train=009 dir=R-L  occupancy=1 | Поезд ожидает разрешения диспетчера
+time=00000 event=REGISTER  train=005 dir=L-R  occupancy=1 | Процесс поезда подключился
+time=00000 event=ARRIVE    train=005 dir=L-R  occupancy=1 | Грузовой поезд прибыл на станцию
+time=00000 event=QUEUE     train=005 dir=L-R  occupancy=1 | Поезд ожидает разрешения диспетчера
+time=00001 event=REGISTER  train=008 dir=R-L  occupancy=1 | Процесс поезда подключился
+time=00001 event=ARRIVE    train=008 dir=R-L  occupancy=1 | Грузовой поезд прибыл на станцию
+time=00001 event=QUEUE     train=008 dir=R-L  occupancy=1 | Поезд ожидает разрешения диспетчера
+time=00001 event=REGISTER  train=003 dir=L-R  occupancy=1 | Процесс поезда подключился
+time=00001 event=ARRIVE    train=003 dir=L-R  occupancy=1 | Пассажирский поезд прибыл на станцию
+time=00001 event=QUEUE     train=003 dir=L-R  occupancy=1 | Поезд ожидает разрешения диспетчера
+time=00001 event=PERMIT    train=002 dir=L-R  occupancy=1 | Диспетчер разрешил въезд
+time=00001 event=ENTER     train=002 dir=L-R  occupancy=2 | Поезд въехал на участок
+time=00001 event=REGISTER  train=006 dir=R-L  occupancy=2 | Процесс поезда подключился
+time=00001 event=ARRIVE    train=006 dir=R-L  occupancy=2 | Пассажирский поезд прибыл на станцию
+time=00001 event=QUEUE     train=006 dir=R-L  occupancy=2 | Поезд ожидает разрешения диспетчера
+time=00001 event=REGISTER  train=001 dir=L-R  occupancy=2 | Процесс поезда подключился
+time=00001 event=ARRIVE    train=001 dir=L-R  occupancy=2 | Грузовой поезд прибыл на станцию
+time=00001 event=QUEUE     train=001 dir=L-R  occupancy=2 | Поезд ожидает разрешения диспетчера
+time=00001 event=REGISTER  train=007 dir=R-L  occupancy=2 | Процесс поезда подключился
+time=00001 event=ARRIVE    train=007 dir=R-L  occupancy=2 | Пассажирский поезд прибыл на станцию
+time=00001 event=QUEUE     train=007 dir=R-L  occupancy=2 | Поезд ожидает разрешения диспетчера
+time=00002 event=PERMIT    train=003 dir=L-R  occupancy=2 | Диспетчер разрешил въезд
+time=00002 event=ENTER     train=003 dir=L-R  occupancy=3 | Поезд въехал на участок
+time=00004 event=PROGRESS  train=004 dir=L-R  occupancy=3 | Поезд проходит однопутный участок
+time=00005 event=PROGRESS  train=002 dir=L-R  occupancy=3 | Поезд проходит однопутный участок
+time=00006 event=PROGRESS  train=003 dir=L-R  occupancy=3 | Поезд проходит однопутный участок
+time=00008 event=EXIT      train=004 dir=L-R  occupancy=2 | Поезд покинул участок и прибыл на другую станцию
+time=00009 event=EXIT      train=002 dir=L-R  occupancy=1 | Поезд покинул участок и прибыл на другую станцию
+time=00010 event=EXIT      train=003 dir=L-R  occupancy=0 | Поезд покинул участок и прибыл на другую станцию
+time=00010 event=CLEAR     train=000 dir=L-R  occupancy=0 | Участок освобождён
+time=00010 event=DIRECTION train=000 dir=R-L  occupancy=0 | Диспетчер установил направление движения
+time=00010 event=PERMIT    train=006 dir=R-L  occupancy=0 | Диспетчер разрешил въезд
+time=00010 event=ENTER     train=006 dir=R-L  occupancy=1 | Поезд въехал на участок
+time=00011 event=PERMIT    train=007 dir=R-L  occupancy=1 | Диспетчер разрешил въезд
+time=00011 event=ENTER     train=007 dir=R-L  occupancy=2 | Поезд въехал на участок
+time=00012 event=PERMIT    train=008 dir=R-L  occupancy=2 | Диспетчер разрешил въезд
+time=00012 event=WAIT_ALERT train=008 dir=R-L  occupancy=3 | Поезд достиг порога ожидания
+time=00012 event=ENTER     train=008 dir=R-L  occupancy=3 | Поезд въехал на участок
+time=00014 event=PROGRESS  train=006 dir=R-L  occupancy=3 | Поезд проходит однопутный участок
+time=00015 event=PROGRESS  train=007 dir=R-L  occupancy=3 | Поезд проходит однопутный участок
+time=00016 event=PROGRESS  train=008 dir=R-L  occupancy=3 | Поезд проходит однопутный участок
+time=00018 event=EXIT      train=006 dir=R-L  occupancy=2 | Поезд покинул участок и прибыл на другую станцию
+time=00019 event=EXIT      train=007 dir=R-L  occupancy=1 | Поезд покинул участок и прибыл на другую станцию
+time=00020 event=EXIT      train=008 dir=R-L  occupancy=0 | Поезд покинул участок и прибыл на другую станцию
+time=00020 event=CLEAR     train=000 dir=R-L  occupancy=0 | Участок освобождён
+time=00020 event=DIRECTION train=000 dir=L-R  occupancy=0 | Диспетчер установил направление движения
+time=00020 event=PERMIT    train=001 dir=L-R  occupancy=0 | Диспетчер разрешил въезд
+time=00020 event=WAIT_ALERT train=001 dir=L-R  occupancy=1 | Поезд достиг порога ожидания
+time=00020 event=ENTER     train=001 dir=L-R  occupancy=1 | Поезд въехал на участок
+time=00021 event=PERMIT    train=005 dir=L-R  occupancy=1 | Диспетчер разрешил въезд
+time=00021 event=WAIT_ALERT train=005 dir=L-R  occupancy=2 | Поезд достиг порога ожидания
+time=00021 event=ENTER     train=005 dir=L-R  occupancy=2 | Поезд въехал на участок
+time=00024 event=PROGRESS  train=001 dir=L-R  occupancy=2 | Поезд проходит однопутный участок
+time=00025 event=PROGRESS  train=005 dir=L-R  occupancy=2 | Поезд проходит однопутный участок
+time=00028 event=EXIT      train=001 dir=L-R  occupancy=1 | Поезд покинул участок и прибыл на другую станцию
+time=00029 event=EXIT      train=005 dir=L-R  occupancy=0 | Поезд покинул участок и прибыл на другую станцию
+time=00029 event=CLEAR     train=000 dir=L-R  occupancy=0 | Участок освобождён
+time=00029 event=DIRECTION train=000 dir=R-L  occupancy=0 | Диспетчер установил направление движения
+time=00029 event=PERMIT    train=009 dir=R-L  occupancy=0 | Диспетчер разрешил въезд
+time=00029 event=WAIT_ALERT train=009 dir=R-L  occupancy=1 | Поезд достиг порога ожидания
+time=00029 event=ENTER     train=009 dir=R-L  occupancy=1 | Поезд въехал на участок
+time=00033 event=PROGRESS  train=009 dir=R-L  occupancy=1 | Поезд проходит однопутный участок
+time=00037 event=EXIT      train=009 dir=R-L  occupancy=0 | Поезд покинул участок и прибыл на другую станцию
+time=00037 event=CLEAR     train=000 dir=R-L  occupancy=0 | Участок освобождён
+time=00037 event=SUMMARY   train=000 dir=NONE occupancy=0 | Итог: все поезда завершили путь; завершено 9/9; осталось 0; групп 4; среднее ожидание 11.78 мин; максимум 29 мин; достигли порога 4

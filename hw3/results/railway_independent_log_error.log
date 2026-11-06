@@ -1,0 +1,2 @@
+time=00000 event=CONFIG    train=000 dir=NONE occupancy=0 | Старт: поездов 1; вместимость 2; интервал 2; группа 3; стратегия priority; seed 42; session log_501_railway_independent; pid 683
+time=00012 event=SUMMARY   train=000 dir=NONE occupancy=0 | Итог: ошибка выполнения; завершено 0/1; осталось 1; групп 0; среднее ожидание 0.00 мин; максимум 0 мин; достигли порога 0

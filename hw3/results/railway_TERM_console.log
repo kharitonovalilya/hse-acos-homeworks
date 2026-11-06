@@ -1,0 +1,8 @@
+time=00000 event=CONFIG    train=000 dir=NONE occupancy=0 | Старт: поездов 1; вместимость 2; интервал 2; группа 3; стратегия priority; seed 42; session fork_612; pid 612
+time=00000 event=REGISTER  train=001 dir=L-R  occupancy=0 | Процесс поезда подключился
+time=00000 event=ARRIVE    train=001 dir=L-R  occupancy=0 | Грузовой поезд прибыл на станцию
+time=00000 event=QUEUE     train=001 dir=L-R  occupancy=0 | Поезд ожидает разрешения диспетчера
+time=00000 event=DIRECTION train=000 dir=L-R  occupancy=0 | Диспетчер установил направление движения
+time=00000 event=PERMIT    train=001 dir=L-R  occupancy=0 | Диспетчер разрешил въезд
+time=00000 event=ENTER     train=001 dir=L-R  occupancy=1 | Поезд въехал на участок
+time=00000 event=SUMMARY   train=000 dir=L-R  occupancy=1 | Итог: прервано пользователем; завершено 0/1; осталось 1; групп 1; среднее ожидание 0.00 мин; максимум 0 мин; достигли порога 0
