@@ -1,0 +1,10 @@
+cc -D_POSIX_C_SOURCE=200809L -std=c11 -Wall -Wextra -Werror -O2  -o railway_server server.c simulation.c config.c net.c
+cc -D_POSIX_C_SOURCE=200809L -std=c11 -Wall -Wextra -Werror -O2  -DTRAIN_CLIENT -o railway_train client.c config.c net.c
+cc -D_POSIX_C_SOURCE=200809L -std=c11 -Wall -Wextra -Werror -O2  -o railway_observer client.c config.c net.c
+cc -D_POSIX_C_SOURCE=200809L -std=c11 -Wall -Wextra -Werror -O2  -o tests tests.c simulation.c config.c net.c
+OK: left=0 right=0 completed=0 max_occupancy=0 groups=0
+OK: left=0 right=8 completed=8 max_occupancy=1 groups=8
+OK: left=5 right=4 completed=9 max_occupancy=1 groups=9
+OK: left=7 right=7 completed=14 max_occupancy=2 groups=6
+OK: left=100 right=100 completed=200 max_occupancy=2 groups=68
+OK: TCP line parsing, FIFO, passenger priority, waiting threshold, reconnect
